@@ -1,0 +1,94 @@
+﻿/********************************************************/
+/*                                                      */
+/*                   标准工具条初始化                   */
+/*                                                      */
+/********************************************************/
+/*工具面板样式*/
+.olControlCommonPanel 
+{
+    border: solid 3px #4599f7;
+    border-radius: 5px;
+    position: absolute;
+    top: 75px;
+    left: 255px;
+    height: 24px;
+    overflow: hidden;
+    background-color: #4385c5;
+    -ms-filter: "alpha(opacity=87)";
+    padding: 0px 3px 0px 3px;
+}
+
+.olControlCommonPanel div {
+    float: left;
+    cursor: pointer;
+    display: block;
+    width: 47px;
+    height: 24px;
+    margin: 0px 2px 0px 2px;
+}
+/*平移*/
+.olControlMouseDefaultsItemActive {
+    background: url( "img/hand_hover.png" ) no-repeat center center;
+}
+.olControlMouseDefaultsItemInactive {
+    background: url( "img/hand.png" ) no-repeat center center;
+}
+/*逐级放大*/
+.olControlZoomOutItemInactive {
+    background: url( "img/enlarge.png" ) no-repeat center center;
+}
+/*逐级缩小*/
+.olControlZoomInItemInactive {
+    background: url( "img/narrow.png" ) no-repeat center center;
+}
+/*地球*/
+.olControlZoomToMaxExtentItemInactive {
+    background: url( "img/earth.png" ) no-repeat center center;
+}
+/*测量*/
+.olControlMeasureItemActive {
+    background: url( "img/ruler_hover.png" ) no-repeat center center;
+}
+.olControlMeasureItemInactive {
+    background: url( "img/ruler.png" ) no-repeat center center;
+}
+/*打印*/
+.olControlPrintItemInactive {
+    background: url( "img/print.png" ) no-repeat center center;
+}
+/*地图切换*/
+.olControlSwitchMapItemActive {
+    background: url( "img/streetmap.png" ) no-repeat center center;
+}
+.olControlSwitchMapItemInactive {
+    background: url( "img/satellitemap.png" ) no-repeat center center;
+}
+/*路线图*/
+.olControlRouteMapItemActive {
+    background: url( "img/routemap_selected.png" ) no-repeat center center;
+}
+.olControlRouteMapItemInactive {
+    background: url( "img/routemap.png" ) no-repeat center center;
+}
+
+
+.olPopupContent {
+    padding: 0px;
+    overflow: auto;
+}
+.olFramedCloudPopupContent {
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+
+.olPopupCloseBox {
+    background: url("img/close.gif") no-repeat;
+    cursor: pointer;
+}
+
+.labelClass {
+    padding: 3px;
+    background-color: #FDC648;
+    border: 2px solid #FFFFFF;
+}
